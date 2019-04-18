@@ -1,0 +1,88 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "react-native-webview-autoheight@git+https://github.com/MPower-Technologies/react-native-webview-autoheight.git",
+        "scope": null,
+        "escapedName": "react-native-webview-autoheight",
+        "name": "react-native-webview-autoheight",
+        "rawSpec": "git+https://github.com/MPower-Technologies/react-native-webview-autoheight.git",
+        "spec": "git+https://github.com/MPower-Technologies/react-native-webview-autoheight.git",
+        "type": "hosted",
+        "hosted": {
+          "type": "github",
+          "ssh": "git@github.com:MPower-Technologies/react-native-webview-autoheight.git",
+          "sshUrl": "git+ssh://git@github.com/MPower-Technologies/react-native-webview-autoheight.git",
+          "httpsUrl": "git+https://github.com/MPower-Technologies/react-native-webview-autoheight.git",
+          "gitUrl": "git://github.com/MPower-Technologies/react-native-webview-autoheight.git",
+          "shortcut": "github:MPower-Technologies/react-native-webview-autoheight",
+          "directUrl": "https://raw.githubusercontent.com/MPower-Technologies/react-native-webview-autoheight/master/package.json"
+        }
+      },
+      "/Users/jasonc/AKS/workspace/MPowerApp"
+    ]
+  ],
+  "_from": "git+https://github.com/MPower-Technologies/react-native-webview-autoheight.git",
+  "_id": "react-native-webview-autoheight@1.0.3",
+  "_inCache": true,
+  "_location": "/react-native-webview-autoheight",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "react-native-webview-autoheight@git+https://github.com/MPower-Technologies/react-native-webview-autoheight.git",
+    "scope": null,
+    "escapedName": "react-native-webview-autoheight",
+    "name": "react-native-webview-autoheight",
+    "rawSpec": "git+https://github.com/MPower-Technologies/react-native-webview-autoheight.git",
+    "spec": "git+https://github.com/MPower-Technologies/react-native-webview-autoheight.git",
+    "type": "hosted",
+    "hosted": {
+      "type": "github",
+      "ssh": "git@github.com:MPower-Technologies/react-native-webview-autoheight.git",
+      "sshUrl": "git+ssh://git@github.com/MPower-Technologies/react-native-webview-autoheight.git",
+      "httpsUrl": "git+https://github.com/MPower-Technologies/react-native-webview-autoheight.git",
+      "gitUrl": "git://github.com/MPower-Technologies/react-native-webview-autoheight.git",
+      "shortcut": "github:MPower-Technologies/react-native-webview-autoheight",
+      "directUrl": "https://raw.githubusercontent.com/MPower-Technologies/react-native-webview-autoheight/master/package.json"
+    }
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "git+https://github.com/MPower-Technologies/react-native-webview-autoheight.git#d2f521b6856cb48d15a15310189b99e2036ea45a",
+  "_shasum": "5ac7082f8a62044dba1fdb24714971de28f30963",
+  "_shrinkwrap": null,
+  "_spec": "react-native-webview-autoheight@git+https://github.com/MPower-Technologies/react-native-webview-autoheight.git",
+  "_where": "/Users/jasonc/AKS/workspace/MPowerApp",
+  "author": {
+    "name": "Elton Jain"
+  },
+  "bugs": {
+    "url": "https://github.com/scazzy/react-native-webview-autoheight/issues"
+  },
+  "dependencies": {},
+  "description": "React Native WebView with AutoHeight",
+  "devDependencies": {},
+  "gitHead": "d2f521b6856cb48d15a15310189b99e2036ea45a",
+  "homepage": "https://github.com/scazzy/react-native-webview-autoheight#readme",
+  "keywords": [
+    "react",
+    "native",
+    "webview",
+    "auto",
+    "height"
+  ],
+  "license": "ISC",
+  "main": "index.js",
+  "name": "react-native-webview-autoheight",
+  "optionalDependencies": {},
+  "readme": "# React Native WebView Autoheight\nReact Native WebView which sets it's height automatically with minimal efforts.\n\nYou can also add custom CSS style or javascript to your webview using below example.\n\n\n\n![Downloads](https://nodei.co/npm/react-native-webview-autoheight.png?downloads=true&stars=true)\n\n\n\n## Installation\n> npm install --save react-native-webview-autoheight\n\n## Usage\n\n```\nimport MyWebView from 'react-native-webview-autoheight';\nconst customStyle = \"<style>* {max-width: 100%;} body {font-family: sans-serif;} h1 {color: red;}</style>\";\nconst htmlContent = \"<h1>This is title</h1><p>Throw your entire HTML here</p>\";\n\n<MyWebView\n    source={{html: customStyle + htmlContent}}\n    startInLoadingState={true}\n/>\n```\n\n```\n<MyWebView\n    source={{uri: 'http://example.com/helloworld.html'}}\n    startInLoadingState={true}\n/>\n```\n\n\n## Props\n* Same as https://facebook.github.io/react-native/docs/webview.html#props\n* `autoHeight` (default: true)\n* `width` (default: Screen width)\n* `defaultHeight` (default height unless autoHeight)\n\n## How it works\nIt is a very simple wrapper around the built-in React Native Webview, which updates the height of the webview based on a state change using `onNavigationStateChange`.\n\n\n### Feel free to add issues or feature requests\n\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scazzy/react-native-webview-autoheight.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.3"
+}
